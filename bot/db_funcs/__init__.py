@@ -12,7 +12,6 @@ from .restart import (
     del_broadcast_data_id,
     get_broadcast_data_ids,
 )
-from .caption import set_custom_caption, get_custom_caption
 from .caption import (
     set_custom_caption,
     get_custom_caption,
@@ -51,5 +50,4 @@ __all__ = [
     "set_custom_caption",
     "get_custom_caption",
     "reset_custom_caption",
-
 ]
