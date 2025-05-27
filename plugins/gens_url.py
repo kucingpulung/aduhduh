@@ -4,7 +4,7 @@ from hydrogram.types import Message
 
 from bot import authorized_users_only, config, helper_handlers, logger, url_safe
 from plugins import list_available_commands
-from db_func import get_custom_caption  # Tambahan
+from db_func.caption import get_custom_caption, set_custom_caption, reset_custom_caption
 
 @Client.on_message(
     filters.private & ~filters.me & ~filters.command(list_available_commands)
