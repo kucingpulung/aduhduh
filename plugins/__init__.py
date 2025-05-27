@@ -9,6 +9,8 @@ list_available_commands = [
     "stop",
     "users",
     "uptime",
+    "setcaption", 
+    "resetcaption", 
 ]
 
 __all__ = ["list_available_commands"]
