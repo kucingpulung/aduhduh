@@ -12,6 +12,11 @@ from .restart import (
     del_broadcast_data_id,
     get_broadcast_data_ids,
 )
+from .caption import (
+    set_custom_caption,
+    get_custom_caption,
+    reset_custom_caption,
+)
 from .text import (
     get_force_text_msg,
     get_start_text_msg,
@@ -42,4 +47,8 @@ __all__ = [
     "add_user",
     "del_user",
     "get_users",
+    "set_custom_caption",
+    "get_custom_caption",
+    "reset_custom_caption",
+
 ]
